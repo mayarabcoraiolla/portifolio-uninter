@@ -212,3 +212,12 @@ footer {
         justify-content: center;
     }
 }
+/* Espaçamento extra e centralização do texto na seção Sobre Mim */
+#sobre .container {
+    margin-top: 50px !important; /* Empurra o bloco de texto para baixo */
+    text-align: center;         /* Centraliza todo o texto */
+}
+
+#sobre p {
+    margin-bottom: 20px;       /* Cria um espaço confortável entre os parágrafos */
+}
