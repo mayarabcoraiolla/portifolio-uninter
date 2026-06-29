@@ -91,7 +91,7 @@ header {
 
 /* Estrutura das Seções */
 .section-padding {
-    padding: 60px 20px;
+    padding: 100px 20px 60px 20px;
     min-height: 80vh;
 }
 
