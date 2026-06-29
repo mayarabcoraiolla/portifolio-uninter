@@ -49,7 +49,9 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 20px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .logo {
@@ -208,7 +210,17 @@ footer {
     background-color: var(--bg-alt);
     border-top: 1px solid var(--border-color);
 }
-/* Ajuste definitivo para descer a seção Sobre Mim abaixo do menu fixo */
-#sobre {
-    padding-top: 220px !important;
+/* Correção definitiva para rolagem de menu fixo em qualquer tamanho de tela */
+section {
+    scroll-margin-top: 130px; /* Cria uma área invisível no topo ao clicar no menu */
+}
+
+/* Ajuste fino nos links do menu para telas estreitas */
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+    section {
+        scroll-margin-top: 160px; /* Aumenta a folga se a tela for muito pequena */
+    }
 }
