@@ -208,3 +208,7 @@ footer {
     background-color: var(--bg-alt);
     border-top: 1px solid var(--border-color);
 }
+/* Ajuste definitivo para descer a seção Sobre Mim abaixo do menu fixo */
+#sobre {
+    padding-top: 220px !important;
+}
