@@ -92,7 +92,7 @@ header {
 
 /* Estrutura das Seções */
 .section-padding {
-    padding: 100px 20px 60px 20px; /* Margem superior compensa o menu fixo */
+    padding: 160px 20px 60px 20px; /* Margem superior compensa o menu fixo */
     min-height: 80vh;
 }
 
