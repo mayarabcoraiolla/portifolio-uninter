@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-light">
+
+    <!-- Menu de Navegação Obrigatório -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Meu Portfólio</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <!-- Botão para alternar tema (Diferencial JavaScript) -->
+            <button id="theme-toggle">Alternar Tema</button>
+        </nav>
+    </header>
+
+    <main>
+       <p>Olá! Meu nome é <strong>Mayara Bitencourt Coraiolla</strong>, sou estudante de Análise e Desenvolvimento de Sistemas na UNINTER e estou construindo minha trajetória no universo da tecnologia e do desenvolvimento web.</p>
+                
+                <p>Acredito que a programação é uma poderosa ferramenta de transformação. Por isso, tenho grande interesse em arquitetar soluções digitais e sistemas de informação que tragam melhorias práticas para o dia a dia e promovam o bem-estar da nossa comunidade.</p>
+                
+                <p>Fora das telas e dos códigos, busco manter uma vida equilibrada e criativa. Sou entusiasta do <strong>artesanato</strong>, um hobby que exercita minha paciência, atenção aos detalhes e expressão manual. Também dedico meu tempo livre aos <strong>esportes</strong>, que me ajudam a manter o foco, a disciplina e a energia necessária para vencer os desafios diários da área de tecnologia.</p>
+            </div>
+        </section>
+
+        <!-- Seção 2: Formação -->
+        <section id="formacao" class="section-padding bg-alt">
+            <h2>Formação Acadêmica</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p><strong>Instituição:</strong> Centro Universitário Internacional UNINTER</p>
+                    <p><strong>Status:</strong> Em andamento</p>
+                </div>
+                <div class="card">
+                    <h3>Idiomas & Outros Cursos</h3>
+                    <p>Inglês - Nível Intermediário</p>
+                    <p>Coreano - Nível Iniciante</p>
+                    <p>Administração</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Portfólio -->
+        <section id="portfolio" class="section-padding">
+            <h2>Meus Projetos</h2>
+            <div class="container grid-projects">
+                <!-- Projeto 1 -->
+                <div class="card-projeto">
+                    <h3>Projeto de Extensão Acadêmica</h3>
+                    <p>Desenvolvimento de uma iniciativa voltada para o bem-estar comunitário, integrando conceitos de tecnologia com os Objetivos de Desenvolvimento Sustentável (ODS).</p>
+                    <a href="https://github.com/" target="_blank" class="btn">Ver no GitHub</a>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="card-projeto">
+                    <h3>Gerenciador de Banco de Dados</h3>
+                    <p>Estudo prático aplicando conceitos de modelagem conceitual, cardinalidades e mapeamento de sistemas de informação.</p>
+                    <a href="https://github.com/" target="_blank" class="btn">Ver no GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Contato com Validação -->
+        <section id="contato" class="section-padding bg-alt">
+            <h2>Contato</h2>
+            <div class="container">
+                <form id="form-contato">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+                <!-- Div oculta para exibir a mensagem de sucesso customizada via JS -->
+                <div id="mensagem-sucesso" class="hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Mayara Bitencourt Coraiolla. Atividade Prática UNINTER.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
