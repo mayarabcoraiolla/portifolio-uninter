@@ -91,7 +91,7 @@ header {
 
 /* Estrutura das Seções */
 .section-padding {
-    padding: 100px 20px 60px 20px;
+    padding: 110px 20px 60px 20px; /* Distância generosa no topo de todas as seções */
     min-height: 80vh;
 }
 
@@ -107,7 +107,18 @@ header {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* Customização Exclusiva para a Seção Sobre Mim */
+#sobre .container {
+    text-align: center; /* Centraliza todo o texto do Sobre Mim */
+    margin-top: 40px;   /* Dá uma distância extra da barra azul */
+}
+
+#sobre p {
+    margin-bottom: 25px; /* Espaçamento confortável entre os parágrafos */
+    font-size: 1.1rem;
 }
 
 /* Cards (Formação e Projetos) */
@@ -211,13 +222,4 @@ footer {
     .navbar {
         justify-content: center;
     }
-}
-/* Espaçamento extra e centralização do texto na seção Sobre Mim */
-#sobre .container {
-    margin-top: 50px !important; /* Empurra o bloco de texto para baixo */
-    text-align: center;         /* Centraliza todo o texto */
-}
-
-#sobre p {
-    margin-bottom: 20px;       /* Cria um espaço confortável entre os parágrafos */
 }
